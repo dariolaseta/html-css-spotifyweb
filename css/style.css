@@ -69,6 +69,19 @@ main section.content{
     overflow-y: auto;
 }
 
+footer div.image img{
+    width: 65%;
+    margin: 1rem;
+}
+
+footer div.song-text p.title{
+    font-size: 1rem;
+}
+
+footer div.song-text p.sub-title{
+    width: 100%;
+}
+
 section.content div.upper-bar{
     height: 100px;
     background-color: #080b12;
@@ -76,16 +89,14 @@ section.content div.upper-bar{
 
 section.left{
     width: 10%;
-    height: 40px;
     align-self: center;
-    background-color: red;
 }
 
 section.center{
     width: 60%;
     height: 40px;
     align-self: center;
-    background-color: blue;
+    justify-content: center;
 }
 
 section.right{
@@ -154,6 +165,12 @@ div.popular-artists div.boxes div.box img{
     object-fit: cover;
 }
 
+div.buttons{
+    justify-content: space-between;
+    color: white;
+    width: 20%;
+}
+
 p.title{
     color: white;
     font-size: 1.8rem;
@@ -190,4 +207,10 @@ p.sub-title{
 .rounded-img{
     border-radius: 50%;
     background-color: #808080;
+}
+
+.time{
+    height: 10%;
+    width: 60%;
+    background-color: grey;
 }
