@@ -120,10 +120,14 @@ div.upper-bar{
 }
 
 div.music-sections ul{
-    color: white;
+    color: #a3a3a3;
     justify-content: space-evenly;
     margin: 1rem auto;
-    width: 40%;
+    width: 50%;
+}
+
+div.music-sections ul hr{
+    color: #adff2f;
 }
 
 div.popular-artists div.boxes div.box{
