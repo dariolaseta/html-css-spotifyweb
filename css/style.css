@@ -43,6 +43,7 @@ main section.content{
     width: 100%;
     height: calc(100vh - 100px);
     background-color: #141922;
+    overflow-y: auto;
 }
 
 section.content div.upper-bar{
@@ -60,6 +61,10 @@ div.music-sections ul{
     justify-content: space-evenly;
     margin: 1rem auto;
     width: 40%;
+}
+
+div.popular-artists div.boxes div.box{
+    border-radius: 50%;
 }
 
 p.title{
