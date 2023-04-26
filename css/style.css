@@ -18,6 +18,17 @@ footer{
     background-color: #282828;
 }
 
+button{
+    border: 1px solid white;
+    background-color: #080b12;
+    font-weight: bold;
+    color: white;
+    padding: 10px 35px;
+    cursor: pointer;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
 main nav{
     width: 20%;
     height: calc(100vh - 100px);
@@ -33,4 +44,14 @@ main section.content{
 section.content div.upper-bar{
     height: 100px;
     background-color: #080b12;
+}
+
+div.upper-bar{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
 }
