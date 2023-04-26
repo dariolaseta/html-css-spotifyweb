@@ -37,6 +37,18 @@ main nav{
     width: 15%;
     height: calc(100vh - 100px);
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: #6a6a6a;
+}
+
+main nav div.logo img{
+    width: 60%;
+    margin: 1rem;
+}
+
+main nav div.bottom-navbar-items{
+    margin-top: 15rem;
 }
 
 main section.content{
@@ -44,6 +56,10 @@ main section.content{
     height: calc(100vh - 100px);
     background-color: #141922;
     overflow-y: auto;
+}
+
+div.center-navbar-items p.title{
+    font-size: 1rem;
 }
 
 section.content div.upper-bar{
@@ -91,4 +107,8 @@ p.sub-title{
     width: 200px;
     background-color: red;
     margin: 1rem;
+}
+
+.nav-text{
+    margin: .7rem 1rem;
 }
