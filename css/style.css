@@ -69,6 +69,13 @@ p.title{
     margin: 1rem;
 }
 
+p.sub-title{
+    font-size: .8rem;
+    color: #6a6c71;
+    margin: 1rem;
+    font-weight: bold;
+}
+
 .flex{
     display: flex;
     flex-direction: row;
