@@ -16,6 +16,11 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: #6a6a6a;
+}
+
 footer{
     width: 100%;
     height: 100px;
@@ -50,7 +55,7 @@ main nav div.logo img{
 }
 
 main nav div.bottom-navbar-items{
-    margin-top: 15rem;
+    margin-top: 8rem;
 }
 
 main section.content{
@@ -86,8 +91,27 @@ section.right{
     background-color: red;
 }
 
+div.top-navbar-items img{
+    width: 15%;
+}
+
 div.center-navbar-items p.title{
     font-size: 1rem;
+}
+
+div.center-navbar-items ul i{
+    padding: .5rem;
+    color: black;
+    text-align: center;
+    background-color: #a3a3a3;
+}
+
+hr{
+    margin: 1rem;
+}
+
+div.bottom-navbar-items img{
+    width: 7%;
 }
 
 div.upper-bar{
@@ -133,5 +157,15 @@ p.sub-title{
 }
 
 .nav-text{
-    margin: .7rem 1rem;
+    margin: 1rem 1rem;
+}
+
+.username{
+    color: white;
+    font-weight: bold;
+}
+
+.rounded-img{
+    border-radius: 50%;
+    background-color: #808080;
 }
