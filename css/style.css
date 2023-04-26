@@ -19,6 +19,8 @@ ul{
 footer{
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
     background-color: #282828;
 }
 
@@ -58,13 +60,34 @@ main section.content{
     overflow-y: auto;
 }
 
-div.center-navbar-items p.title{
-    font-size: 1rem;
-}
-
 section.content div.upper-bar{
     height: 100px;
     background-color: #080b12;
+}
+
+section.left{
+    width: 10%;
+    height: 40px;
+    align-self: center;
+    background-color: red;
+}
+
+section.center{
+    width: 60%;
+    height: 40px;
+    align-self: center;
+    background-color: blue;
+}
+
+section.right{
+    width: 10%;
+    height: 40px;
+    align-self: center;
+    background-color: red;
+}
+
+div.center-navbar-items p.title{
+    font-size: 1rem;
 }
 
 div.upper-bar{
