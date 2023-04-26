@@ -7,3 +7,25 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+main{
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    height: 130px;
+    background-color: green;
+}
+
+main nav{
+    width: 20%;
+    height: calc(100vh - 130px);
+    background-color: blue;
+}
+
+main div.content{
+    width: 100%;
+    height: calc(100vh - 130px);
+    background-color: red;
+}
