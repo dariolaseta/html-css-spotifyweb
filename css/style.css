@@ -150,6 +150,7 @@ div.popular-artists div.boxes div.box{
 
 div.boxes .box img{
     width: 100%;
+    display: flex;
 }
 
 div.box p.title{
@@ -229,6 +230,10 @@ p.sub-title{
 a:hover{
     color: white;
     cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 992px) {
