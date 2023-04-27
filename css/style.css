@@ -246,3 +246,18 @@ p.sub-title{
         margin: .5rem;
     }
 }
+
+@media screen and (max-width: 576px) {
+    div.music-sections ul.flex{
+        width: 100%;
+    }
+
+    div.box p.title{
+        font-size: .8rem;
+    }
+    
+    .box{
+        width: calc(100% / 2 - 1rem);
+        margin: .5rem;
+    }
+}
