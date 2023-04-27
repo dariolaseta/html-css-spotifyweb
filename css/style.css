@@ -76,10 +76,13 @@ footer div.image img{
 
 footer div.song-text p.title{
     font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 footer div.song-text p.sub-title{
     width: 100%;
+    margin-top: 0;
 }
 
 section.content div.upper-bar{
@@ -221,6 +224,11 @@ p.sub-title{
 
 .duration{
     display: flex;
+}
+
+a:hover{
+    color: white;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 992px) {
