@@ -45,7 +45,7 @@ button{
 }
 
 main nav{
-    width: 15%;
+    width: 250px;
     height: calc(100vh - 100px);
     background-color: black;
     display: flex;
@@ -63,10 +63,10 @@ main nav div.bottom-navbar-items{
 }
 
 main section.content{
-    width: 100%;
+    width: calc(100% - 250px);
     height: calc(100vh - 100px);
     background-color: #141922;
-    overflow-y: auto;
+    overflow: auto;
 }
 
 footer div.image img{
@@ -213,4 +213,36 @@ p.sub-title{
     height: 10%;
     width: 60%;
     background-color: grey;
+}
+
+.duration{
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+    div.music-sections ul.flex{
+        flex-wrap: wrap;
+        width: 85%;
+    }
+
+    div.music-sections ul li{
+        margin-right: .3rem;
+    }
+    
+    div.box p.title{
+        font-size: .9rem;
+    }
+
+    div.boxes{
+        flex-wrap: wrap;
+    }
+
+    div.popular-artists div.boxes :nth-child(1){
+        margin-right: 7rem;
+    }
+    
+    .box{
+        width: calc(100% / 4 - 1rem);
+        margin: .5rem;
+    }
 }
