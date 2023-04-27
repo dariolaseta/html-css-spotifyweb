@@ -190,6 +190,10 @@ p.sub-title{
     flex-direction: row;
 }
 
+.hidden{
+    display: none;
+}
+
 .box{
     width: calc(100% / 6);
     margin: 1rem;
@@ -259,5 +263,51 @@ p.sub-title{
     .box{
         width: calc(100% / 2 - 1rem);
         margin: .5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main nav{
+        width: 60px;
+    }
+
+    main nav div.logo img{
+        width: 50%;
+    }
+
+    main nav div.bottom-navbar-items{
+        margin-top: 33rem;
+    }
+
+    div.top-navbar-items img{
+        width: 100%;
+    }
+
+    div.center-navbar-items{
+        display: none;
+    }
+
+    div.bottom-navbar-items img{
+        width: 45%;
+    }
+
+    div.music-sections ul.flex{
+        font-size: .8rem;
+    }
+
+    .logo-big{
+        display: none;
+    }
+
+    .hidden{
+        display: block;
+    }
+
+    .hidden-text{
+        display: none;
+    }
+
+    main section.content{
+        width: calc(100% - 60px);
     }
 }
