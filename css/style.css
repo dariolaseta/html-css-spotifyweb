@@ -286,6 +286,17 @@ div.album-overlay:hover{
     display: flex;
 }
 
+section.left div.song-text p.sub-title:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div.progress-bar:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 992px) {
     div.music-sections ul.flex{
         flex-wrap: wrap;
