@@ -95,15 +95,23 @@ section.left{
 section.center{
     width: 60%;
     height: 40px;
+    flex-direction: column;
     align-self: center;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 section.right{
-    width: 10%;
+    width: 20%;
     height: 40px;
     align-self: center;
-    background-color: red;
+    color: white;
+}
+
+section.right div.time{
+    display: flex;
+    align-self: center;
+    height: 10%;
 }
 
 div.top-navbar-items img{
@@ -191,6 +199,26 @@ div.buttons{
     width: 20%;
 }
 
+div.duration{
+    color: white;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+div.progress-bar{
+    height: 100%;
+    width: 30%;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+div.icons i{
+    margin-right: 1rem;
+    align-self: center;
+}
+
 p.title{
     color: white;
     font-size: 1.8rem;
@@ -235,8 +263,9 @@ p.sub-title{
 }
 
 .time{
-    height: 10%;
+    height: 20%;
     width: 60%;
+    border-radius: 1rem;
     background-color: grey;
 }
 
